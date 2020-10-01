@@ -1,5 +1,5 @@
 [package]
-name = "interjections"
+name = "ij"
 version = "0.1.0"
 authors = ["Jaap Joris Vens <jj@rtts.eu>"]
 edition = "2018"
