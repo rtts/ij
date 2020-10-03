@@ -1,6 +1,6 @@
 import System.Random
 
-l =
+ijs =
   [ "Abracadabra!"
   , "All good in the hood!"
   , "All hands on deck!"
@@ -142,4 +142,6 @@ l =
   , "Yippee!"
   ]
 
-main = (l !!) <$> randomRIO (0, length l - 1) >>= putStrLn
+main :: IO()
+-- ^Print out the interjection at the index given by randomRIO
+main = putStrLn . (ijs !!) =<< randomRIO (0, length ijs - 1)
