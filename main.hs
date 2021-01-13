@@ -34,7 +34,6 @@ ijs =
   , "Correctomundo!"
   , "Cowabunga!"
   , "Dayumn!"
-  , "Did I do that?"
   , "Dip me in honey and throw me to the lesbians!"
   , "Eat my shorts!"
   , "Eureka!"
@@ -67,7 +66,6 @@ ijs =
   , "Holy guacamole!"
   , "Holy mackerel!"
   , "Hot diggity dog!"
-  , "Houston, we have a problem..."
   , "How you doin'?"
   , "Howdy doody!"
   , "Hurrah!"
@@ -120,7 +118,6 @@ ijs =
   , "Ta ta for now!"
   , "To the Batmobile!"
   , "Touché!"
-  , "Touché!"
   , "Tough titty said the kitty!"
   , "Uh-oh, Spaghetti-o!"
   , "Va-va-voom!"
@@ -143,5 +140,5 @@ ijs =
   ]
 
 main :: IO()
--- ^Print out the interjection at the index given by randomRIO
+-- Print out the interjection at the index given by randomRIO
 main = putStrLn . (ijs !!) =<< randomRIO (0, length ijs - 1)
