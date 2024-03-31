@@ -1,5 +1,38 @@
 import System.Random
 
+dutch_ijs =
+  [ "De bom!"
+  , "Deksels!"
+  , "Drommels!"
+  , "Gaaf!"
+  , "Gers!"
+  , "Goud!"
+  , "Grutjes!"
+  , "Heftig!"
+  , "Jandoedel!"
+  , "Jemig!"
+  , "Jeminee!"
+  , "Joechei!"
+  , "Joepie!"
+  , "Jolijt!"
+  , "Jottem!"
+  , "Koning!"
+  , "Lauw!"
+  , "Mieters!"
+  , "Potvolkoffie!"
+  , "Puik!"
+  , "Reuze!"
+  , "Sapperdeflap!"
+  , "Sapperloot!"
+  , "Tjongejonge!"
+  , "Tof!"
+  , "Verhip!"
+  , "Vet!"
+  , "Waanzinnig!"
+  , "Wreed!"
+  , "Tjakka!"
+  ]
+
 ijs =
   [ "Abracadabra!"
   , "A mind is a terrible thing to waste."
