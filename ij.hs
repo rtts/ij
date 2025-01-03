@@ -142,6 +142,7 @@ ijs =
   , "Giddyup!"
   , "Glittering!"
   , "Glorious!"
+  , "Gnarly!"
   , "Go ahead, make my day."
   , "God speed!"
   , "Golly!"
